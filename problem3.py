@@ -26,7 +26,6 @@
 user = str( input("Enter a username: "))
 if user != "admin":
     print("Invalid User")
-    exit()
 password = str( input("Enter a password: "))
 if password == "12345password":
     print("Access granted")

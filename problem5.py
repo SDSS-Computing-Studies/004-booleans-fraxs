@@ -37,7 +37,7 @@ num1 = math.sqrt(num1)
 num2 = math.sqrt(num2)
 num3 = math.sqrt(num3)
 if num1 == int(num1) and num2 == int(num2) and num3 == int(num3):
-    print("This equation can be factored.")
+    print("the equation can be factored")
 else:
-    print("This equation cannot be factored.")
+    print("the equation can not be factored")
     

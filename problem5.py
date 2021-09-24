@@ -29,10 +29,17 @@ Enter c: 8
 the equation can not be factored
 
 """
-num1 = int( input("Enter the first number: "))
-num2 = int( input("Enter the second number: "))
-num3 = int( input("Enter the third number: "))
-if num1 
+import math
+a = float( input("Enter the first number: "))
+b = float( input("Enter the second number: "))
+c = float( input("Enter the third number: "))
+
+disc = (b**2) - 4 * a * c
+
+if disc != 0:
+    print("the equation can not be factored")
+else:
+    print("the equation can be factored")
 
 
 

@@ -40,5 +40,3 @@ elif number >= 10:
     print("1")
 elif number >= 0:
     print("0")
-elif number <= 0:
-    print("0")

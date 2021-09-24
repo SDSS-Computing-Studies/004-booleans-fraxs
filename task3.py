@@ -31,7 +31,7 @@ Enter a number: 10000
 
 
 """
-number = int( input("Enter a number: "))
+number = float( input("Enter a number: "))
 if number >= 1000:
     print("3")
 elif number >= 100:
